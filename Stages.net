@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /Users/chrisbradley/git/cb/Stages/Stages.sch)
-    (date "Thursday, November 29, 2018 at 09:40:28 pm")
+    (source /Users/chrisbradley/git/cb/stages/Stages.sch)
+    (date "Friday, December 07, 2018 at 09:08:58 am")
     (tool "Eeschema (5.0.0-3-g5ebb6b6)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
