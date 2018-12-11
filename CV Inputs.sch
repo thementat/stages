@@ -20,7 +20,7 @@ U 1 1 5BFAD664
 P 3100 4950
 F 0 "IC10" H 3100 4583 50  0000 C CNN
 F 1 "MCP6002" H 3100 4674 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 3100 4950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3100 4950 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3100 4950 50  0001 C CNN
 	1    3100 4950
 	1    0    0    1   
@@ -351,7 +351,7 @@ U 2 1 5BFB06BD
 P 3100 3250
 F 0 "IC10" H 3100 2883 50  0000 C CNN
 F 1 "MCP6002" H 3100 2974 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 3100 3250 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3100 3250 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3100 3250 50  0001 C CNN
 	2    3100 3250
 	1    0    0    1   
@@ -362,7 +362,7 @@ U 1 1 5BFB1A81
 P 6050 4950
 F 0 "IC9" H 6050 4583 50  0000 C CNN
 F 1 "MCP6002" H 6050 4674 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 6050 4950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 4950 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6050 4950 50  0001 C CNN
 	1    6050 4950
 	1    0    0    1   
@@ -693,7 +693,7 @@ U 2 1 5BFB1B44
 P 6050 3250
 F 0 "IC9" H 6050 2883 50  0000 C CNN
 F 1 "MCP6002" H 6050 2974 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 6050 3250 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 3250 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 6050 3250 50  0001 C CNN
 	2    6050 3250
 	1    0    0    1   
@@ -704,7 +704,7 @@ U 1 1 5BFB4515
 P 9000 4950
 F 0 "IC8" H 9000 4583 50  0000 C CNN
 F 1 "MCP6002" H 9000 4674 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 9000 4950 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9000 4950 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9000 4950 50  0001 C CNN
 	1    9000 4950
 	1    0    0    1   
@@ -1035,7 +1035,7 @@ U 2 1 5BFB45D8
 P 9000 3250
 F 0 "IC8" H 9000 2883 50  0000 C CNN
 F 1 "MCP6002" H 9000 2974 50  0000 C CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 9000 3250 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9000 3250 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9000 3250 50  0001 C CNN
 	2    9000 3250
 	1    0    0    1   
@@ -1046,7 +1046,7 @@ U 3 1 5BFBD7E6
 P 2400 6500
 F 0 "IC10" H 2358 6546 50  0000 L CNN
 F 1 "MCP6002" H 2358 6455 50  0000 L CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 2400 6500 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2400 6500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2400 6500 50  0001 C CNN
 	3    2400 6500
 	1    0    0    -1  
@@ -1057,7 +1057,7 @@ U 3 1 5BFBD8B6
 P 2900 6500
 F 0 "IC9" H 2858 6546 50  0000 L CNN
 F 1 "MCP6002" H 2858 6455 50  0000 L CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 2900 6500 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2900 6500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2900 6500 50  0001 C CNN
 	3    2900 6500
 	1    0    0    -1  
@@ -1068,7 +1068,7 @@ U 3 1 5BFBD975
 P 3400 6500
 F 0 "IC8" H 3358 6546 50  0000 L CNN
 F 1 "MCP6002" H 3358 6455 50  0000 L CNN
-F 2 "Package_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm" H 3400 6500 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 6500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 3400 6500 50  0001 C CNN
 	3    3400 6500
 	1    0    0    -1  
