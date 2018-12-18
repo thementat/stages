@@ -20,7 +20,7 @@ U 1 1 5BFBF4F1
 P 2650 2550
 F 0 "JP5" H 2700 2967 50  0000 C CNN
 F 1 "M05X2SMD" H 2700 2876 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2650 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 2650 2550 50  0001 C CNN
 F 3 "~" H 2650 2550 50  0001 C CNN
 	1    2650 2550
 	-1   0    0    -1  

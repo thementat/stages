@@ -280,7 +280,7 @@ U 1 1 5C24375D
 P 5800 4100
 F 0 "R84" V 5595 4100 50  0000 C CNN
 F 1 "10kB" V 5686 4100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha9mm-1_Single_Vertical" V 5700 4100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_SongHuei9mm-1_Single_Vertical" V 5700 4100 50  0001 C CNN
 F 3 "" V 5700 4100 50  0001 C CNN
 	1    5800 4100
 	0    1    1    0   
@@ -306,7 +306,7 @@ U 1 1 5C24376C
 P 6250 4100
 F 0 "R85" V 6045 4100 50  0000 C CNN
 F 1 "10kB" V 6136 4100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha9mm-1_Single_Vertical" V 6150 4100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_SongHuei9mm-1_Single_Vertical" V 6150 4100 50  0001 C CNN
 F 3 "" V 6150 4100 50  0001 C CNN
 	1    6250 4100
 	0    1    1    0   
@@ -332,7 +332,7 @@ U 1 1 5C24377B
 P 6700 4100
 F 0 "R86" V 6495 4100 50  0000 C CNN
 F 1 "10kB" V 6586 4100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha9mm-1_Single_Vertical" V 6600 4100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_SongHuei9mm-1_Single_Vertical" V 6600 4100 50  0001 C CNN
 F 3 "" V 6600 4100 50  0001 C CNN
 	1    6700 4100
 	0    1    1    0   
@@ -358,7 +358,7 @@ U 1 1 5C24378A
 P 7150 4100
 F 0 "R87" V 6945 4100 50  0000 C CNN
 F 1 "10kB" V 7036 4100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha9mm-1_Single_Vertical" V 7050 4100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_SongHuei9mm-1_Single_Vertical" V 7050 4100 50  0001 C CNN
 F 3 "" V 7050 4100 50  0001 C CNN
 	1    7150 4100
 	0    1    1    0   
@@ -384,7 +384,7 @@ U 1 1 5C243799
 P 7600 4100
 F 0 "R88" V 7395 4100 50  0000 C CNN
 F 1 "10kB" V 7486 4100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha9mm-1_Single_Vertical" V 7500 4100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_SongHuei9mm-1_Single_Vertical" V 7500 4100 50  0001 C CNN
 F 3 "" V 7500 4100 50  0001 C CNN
 	1    7600 4100
 	0    1    1    0   
@@ -410,7 +410,7 @@ U 1 1 5C2437A8
 P 8050 4100
 F 0 "R89" V 7845 4100 50  0000 C CNN
 F 1 "10kB" V 7936 4100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Alpha9mm-1_Single_Vertical" V 7950 4100 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_SongHuei9mm-1_Single_Vertical" V 7950 4100 50  0001 C CNN
 F 3 "" V 7950 4100 50  0001 C CNN
 	1    8050 4100
 	0    1    1    0   
