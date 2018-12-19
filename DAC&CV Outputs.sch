@@ -18,23 +18,23 @@ $Comp
 L Amplifier_Operational:TL074 IC14
 U 4 1 5BFBE4FC
 P 1800 1800
-F 0 "IC14" H 1800 2167 50  0000 C CNN
-F 1 "TL074" H 1800 2076 50  0000 C CNN
+F 0 "IC14" H 1800 1433 50  0000 C CNN
+F 1 "TL074" H 1800 1524 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1750 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1850 2000 50  0001 C CNN
 	4    1800 1800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 IC14
 U 3 1 5BFBE55B
 P 1900 2900
-F 0 "IC14" H 1900 3267 50  0000 C CNN
-F 1 "TL074" H 1900 3176 50  0000 C CNN
+F 0 "IC14" H 1900 3150 50  0000 C CNN
+F 1 "TL074" H 1900 3250 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 1850 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 1950 3100 50  0001 C CNN
 	3    1900 2900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:LED_Dual_2pin LED1
@@ -410,23 +410,23 @@ $Comp
 L Amplifier_Operational:TL074 IC13
 U 4 1 5BFC7399
 P 4900 1800
-F 0 "IC13" H 4900 2167 50  0000 C CNN
-F 1 "TL074" H 4900 2076 50  0000 C CNN
+F 0 "IC13" H 4900 1433 50  0000 C CNN
+F 1 "TL074" H 4900 1524 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4850 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 4950 2000 50  0001 C CNN
 	4    4900 1800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 IC13
 U 3 1 5BFC73A0
 P 5000 2900
-F 0 "IC13" H 5000 3267 50  0000 C CNN
-F 1 "TL074" H 5000 3176 50  0000 C CNN
+F 0 "IC13" H 5000 3150 50  0000 C CNN
+F 1 "TL074" H 5000 3250 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4950 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 5050 3100 50  0001 C CNN
 	3    5000 2900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:LED_Dual_2pin LED2
@@ -802,23 +802,23 @@ $Comp
 L Amplifier_Operational:TL074 IC12
 U 4 1 5BFCBAA5
 P 8000 1800
-F 0 "IC12" H 8000 2167 50  0000 C CNN
-F 1 "TL074" H 8000 2076 50  0000 C CNN
+F 0 "IC12" H 8000 1433 50  0000 C CNN
+F 1 "TL074" H 8000 1524 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 7950 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8050 2000 50  0001 C CNN
 	4    8000 1800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 IC12
 U 3 1 5BFCBAAC
 P 8100 2900
-F 0 "IC12" H 8100 3267 50  0000 C CNN
-F 1 "TL074" H 8100 3176 50  0000 C CNN
+F 0 "IC12" H 8100 3150 50  0000 C CNN
+F 1 "TL074" H 8100 3250 50  0000 C CNN
 F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8050 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8150 3100 50  0001 C CNN
 	3    8100 2900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:LED_Dual_2pin LED6
