@@ -201,24 +201,20 @@ Wire Wire Line
 Wire Wire Line
 	3650 1300 4050 1300
 Wire Wire Line
-	3250 1700 3250 1800
-Wire Wire Line
 	6350 900  6350 1900
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5BFAB98C
-P 4950 1200
+P 4750 1300
 AR Path="/5BFAB98C" Ref="#PWR?"  Part="1" 
 AR Path="/5BFAB137/5BFAB98C" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 4950 1050 50  0001 C CNN
-F 1 "+3.3V" H 4965 1373 50  0000 C CNN
-F 2 "" H 4950 1200 50  0001 C CNN
-F 3 "" H 4950 1200 50  0001 C CNN
-	1    4950 1200
+F 0 "#PWR0106" H 4750 1150 50  0001 C CNN
+F 1 "+3.3V" H 4765 1473 50  0000 C CNN
+F 2 "" H 4750 1300 50  0001 C CNN
+F 3 "" H 4750 1300 50  0001 C CNN
+	1    4750 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 1200 4950 1300
 Connection ~ 4950 1300
 $Comp
 L Device:C C?
@@ -294,17 +290,10 @@ Wire Wire Line
 	4650 2500 5450 2500
 Connection ~ 4650 1300
 Wire Wire Line
-	3250 1800 3450 1800
-Wire Wire Line
-	3450 1800 3450 1300
-Wire Wire Line
 	3450 1300 3650 1300
 Connection ~ 3650 1300
 Wire Wire Line
-	3450 1800 3450 2000
-Wire Wire Line
 	3450 2000 3650 2000
-Connection ~ 3450 1800
 Connection ~ 3650 2000
 Wire Wire Line
 	4050 2000 4550 2000
@@ -520,8 +509,6 @@ F 3 "~" H 5000 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4750 2100 4750 1300
-Wire Wire Line
 	4750 1300 4950 1300
 Text GLabel 5400 3900 0    50   Input ~ 0
 SW_MODE_1
@@ -539,7 +526,7 @@ Wire Wire Line
 	5400 4100 5450 4100
 Wire Wire Line
 	5400 4200 5450 4200
-Text GLabel 3250 1700 1    50   Input ~ 0
+Text GLabel 3450 1300 1    50   Input ~ 0
 +3V3_A
 Wire Wire Line
 	4850 2100 4750 2100
@@ -741,9 +728,9 @@ Text GLabel 1600 5000 2    50   Input ~ 0
 RIGHT_TX
 Text GLabel 1600 5100 2    50   Input ~ 0
 RIGHT_RX
-Text GLabel 1600 5750 2    50   Input ~ 0
-LEFT_TX
 Text GLabel 1600 5850 2    50   Input ~ 0
+LEFT_TX
+Text GLabel 1600 5750 2    50   Input ~ 0
 LEFT_RX
 $Comp
 L Device:R_US R7
@@ -864,4 +851,19 @@ Wire Wire Line
 	5400 3300 5450 3300
 Wire Wire Line
 	5400 3400 5450 3400
+Text GLabel 3450 2000 1    50   Input ~ 0
++3V3_A
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C2DA1FC
+P 4750 2100
+AR Path="/5C2DA1FC" Ref="#PWR?"  Part="1" 
+AR Path="/5BFAB137/5C2DA1FC" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 4750 1950 50  0001 C CNN
+F 1 "+3.3V" H 4765 2273 50  0000 C CNN
+F 2 "" H 4750 2100 50  0001 C CNN
+F 3 "" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

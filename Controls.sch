@@ -835,17 +835,6 @@ Wire Wire Line
 	3400 2550 3300 2550
 Wire Wire Line
 	3400 2950 3300 2950
-$Comp
-L Switch:SW_Push_Dual SW1
-U 1 1 5C2FDCE6
-P 1300 850
-F 0 "SW1" H 1300 1135 50  0000 C CNN
-F 1 "SW_Push_Dual" H 1300 1044 50  0000 C CNN
-F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 1050 50  0001 C CNN
-F 3 "" H 1300 1050 50  0001 C CNN
-	1    1300 850 
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 950  2    50   Input ~ 0
 SW_MODE_1
 Wire Wire Line
@@ -865,17 +854,6 @@ Wire Wire Line
 Connection ~ 1600 950 
 Wire Wire Line
 	1600 950  1600 1050
-$Comp
-L Switch:SW_Push_Dual SW2
-U 1 1 5C319EF2
-P 1300 1450
-F 0 "SW2" H 1300 1735 50  0000 C CNN
-F 1 "SW_Push_Dual" H 1300 1644 50  0000 C CNN
-F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 1650 50  0001 C CNN
-F 3 "" H 1300 1650 50  0001 C CNN
-	1    1300 1450
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 1550 2    50   Input ~ 0
 SW_MODE_2
 Wire Wire Line
@@ -895,17 +873,6 @@ Wire Wire Line
 Connection ~ 1600 1550
 Wire Wire Line
 	1600 1550 1600 1650
-$Comp
-L Switch:SW_Push_Dual SW3
-U 1 1 5C3220D2
-P 1300 2050
-F 0 "SW3" H 1300 2335 50  0000 C CNN
-F 1 "SW_Push_Dual" H 1300 2244 50  0000 C CNN
-F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 2250 50  0001 C CNN
-F 3 "" H 1300 2250 50  0001 C CNN
-	1    1300 2050
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 2150 2    50   Input ~ 0
 SW_MODE_3
 Wire Wire Line
@@ -925,17 +892,6 @@ Wire Wire Line
 Connection ~ 1600 2150
 Wire Wire Line
 	1600 2150 1600 2250
-$Comp
-L Switch:SW_Push_Dual SW4
-U 1 1 5C32B1A5
-P 1300 2650
-F 0 "SW4" H 1300 2935 50  0000 C CNN
-F 1 "SW_Push_Dual" H 1300 2844 50  0000 C CNN
-F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 2850 50  0001 C CNN
-F 3 "" H 1300 2850 50  0001 C CNN
-	1    1300 2650
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 2750 2    50   Input ~ 0
 SW_MODE_4
 Wire Wire Line
@@ -955,17 +911,6 @@ Wire Wire Line
 Connection ~ 1600 2750
 Wire Wire Line
 	1600 2750 1600 2850
-$Comp
-L Switch:SW_Push_Dual SW5
-U 1 1 5C3351EF
-P 1300 3250
-F 0 "SW5" H 1300 3535 50  0000 C CNN
-F 1 "SW_Push_Dual" H 1300 3444 50  0000 C CNN
-F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 3450 50  0001 C CNN
-F 3 "" H 1300 3450 50  0001 C CNN
-	1    1300 3250
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 3350 2    50   Input ~ 0
 SW_MODE_5
 Wire Wire Line
@@ -985,17 +930,6 @@ Wire Wire Line
 Connection ~ 1600 3350
 Wire Wire Line
 	1600 3350 1600 3450
-$Comp
-L Switch:SW_Push_Dual SW6
-U 1 1 5C340233
-P 1300 3850
-F 0 "SW6" H 1300 4135 50  0000 C CNN
-F 1 "SW_Push_Dual" H 1300 4044 50  0000 C CNN
-F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 4050 50  0001 C CNN
-F 3 "" H 1300 4050 50  0001 C CNN
-	1    1300 3850
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 3950 2    50   Input ~ 0
 SW_MODE_6
 Wire Wire Line
@@ -1439,4 +1373,109 @@ Text GLabel 5700 5700 1    50   Input ~ 0
 +3V3_A
 Wire Wire Line
 	5700 5800 5700 5700
+$Comp
+L Switch:SW_Push_4pin SW1
+U 1 1 5C24FD56
+P 1300 950
+F 0 "SW1" H 1300 1335 50  0000 C CNN
+F 1 "SW_Push_4pin" H 1300 1244 50  0000 C CNN
+F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 950 50  0001 C CNN
+F 3 "" H 1300 950 50  0001 C CNN
+	1    1300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_4pin SW2
+U 1 1 5C26992A
+P 1300 1550
+F 0 "SW2" H 1300 1935 50  0000 C CNN
+F 1 "SW_Push_4pin" H 1300 1844 50  0000 C CNN
+F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 1550 50  0001 C CNN
+F 3 "" H 1300 1550 50  0001 C CNN
+	1    1300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_4pin SW4
+U 1 1 5C269BBD
+P 1300 2750
+F 0 "SW4" H 1300 3135 50  0000 C CNN
+F 1 "SW_Push_4pin" H 1300 3044 50  0000 C CNN
+F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 2750 50  0001 C CNN
+F 3 "" H 1300 2750 50  0001 C CNN
+	1    1300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_4pin SW6
+U 1 1 5C282DFA
+P 1300 3950
+F 0 "SW6" H 1300 4335 50  0000 C CNN
+F 1 "SW_Push_4pin" H 1300 4244 50  0000 C CNN
+F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 3950 50  0001 C CNN
+F 3 "" H 1300 3950 50  0001 C CNN
+	1    1300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_4pin SW5
+U 1 1 5C29C03C
+P 1300 3350
+F 0 "SW5" H 1300 3735 50  0000 C CNN
+F 1 "SW_Push_4pin" H 1300 3644 50  0000 C CNN
+F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 3350 50  0001 C CNN
+F 3 "" H 1300 3350 50  0001 C CNN
+	1    1300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_4pin SW3
+U 1 1 5C2B527B
+P 1300 2150
+F 0 "SW3" H 1300 2535 50  0000 C CNN
+F 1 "SW_Push_4pin" H 1300 2444 50  0000 C CNN
+F 2 "Button_Switch_THT:Push E-Switch 6mm" H 1300 2150 50  0001 C CNN
+F 3 "" H 1300 2150 50  0001 C CNN
+	1    1300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5C307B02
+P 10150 5450
+AR Path="/5BFAB137/5C307B02" Ref="MH?"  Part="1" 
+AR Path="/5BFAD561/5C307B02" Ref="MH1"  Part="1" 
+F 0 "MH1" H 10250 5496 50  0000 L CNN
+F 1 "MountingHole" H 10250 5405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10150 5450 50  0001 C CNN
+F 3 "~" H 10150 5450 50  0001 C CNN
+	1    10150 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5C307B09
+P 10150 5700
+AR Path="/5BFAB137/5C307B09" Ref="MH?"  Part="1" 
+AR Path="/5BFAD561/5C307B09" Ref="MH2"  Part="1" 
+F 0 "MH2" V 10104 5800 50  0000 L CNN
+F 1 "MountingHole" V 10195 5800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10150 5700 50  0001 C CNN
+F 3 "~" H 10150 5700 50  0001 C CNN
+	1    10150 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole MH?
+U 1 1 5C307B10
+P 10150 5950
+AR Path="/5BFAB137/5C307B10" Ref="MH?"  Part="1" 
+AR Path="/5BFAD561/5C307B10" Ref="MH3"  Part="1" 
+F 0 "MH3" H 10250 5996 50  0000 L CNN
+F 1 "MountingHole" H 10250 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10150 5950 50  0001 C CNN
+F 3 "~" H 10150 5950 50  0001 C CNN
+	1    10150 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
