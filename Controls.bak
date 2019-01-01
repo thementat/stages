@@ -36,19 +36,6 @@ F 3 "" V 6700 1500 50  0001 C CNN
 	1    6800 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR0115
-U 1 1 5C233BE0
-P 6600 1550
-F 0 "#PWR0115" H 6600 1300 50  0001 C CNN
-F 1 "Earth" H 6600 1400 50  0001 C CNN
-F 2 "" H 6600 1550 50  0001 C CNN
-F 3 "~" H 6600 1550 50  0001 C CNN
-	1    6600 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 1550 6600 1500
 Wire Wire Line
 	6600 1500 6650 1500
 $Comp
@@ -62,19 +49,6 @@ F 3 "" V 7150 1500 50  0001 C CNN
 	1    7250 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR0116
-U 1 1 5C233BFF
-P 7050 1550
-F 0 "#PWR0116" H 7050 1300 50  0001 C CNN
-F 1 "Earth" H 7050 1400 50  0001 C CNN
-F 2 "" H 7050 1550 50  0001 C CNN
-F 3 "~" H 7050 1550 50  0001 C CNN
-	1    7050 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 1550 7050 1500
 Wire Wire Line
 	7050 1500 7100 1500
 $Comp
@@ -88,19 +62,6 @@ F 3 "" V 7600 1500 50  0001 C CNN
 	1    7700 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR0117
-U 1 1 5C233C2C
-P 7500 1550
-F 0 "#PWR0117" H 7500 1300 50  0001 C CNN
-F 1 "Earth" H 7500 1400 50  0001 C CNN
-F 2 "" H 7500 1550 50  0001 C CNN
-F 3 "~" H 7500 1550 50  0001 C CNN
-	1    7500 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 1550 7500 1500
 Wire Wire Line
 	7500 1500 7550 1500
 $Comp
@@ -114,19 +75,6 @@ F 3 "" V 8050 1500 50  0001 C CNN
 	1    8150 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR0118
-U 1 1 5C233CBF
-P 7950 1550
-F 0 "#PWR0118" H 7950 1300 50  0001 C CNN
-F 1 "Earth" H 7950 1400 50  0001 C CNN
-F 2 "" H 7950 1550 50  0001 C CNN
-F 3 "~" H 7950 1550 50  0001 C CNN
-	1    7950 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7950 1550 7950 1500
 Wire Wire Line
 	7950 1500 8000 1500
 $Comp
@@ -140,59 +88,20 @@ F 3 "" V 8500 1500 50  0001 C CNN
 	1    8600 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:Earth #PWR0119
-U 1 1 5C233D19
-P 8400 1550
-F 0 "#PWR0119" H 8400 1300 50  0001 C CNN
-F 1 "Earth" H 8400 1400 50  0001 C CNN
-F 2 "" H 8400 1550 50  0001 C CNN
-F 3 "~" H 8400 1550 50  0001 C CNN
-	1    8400 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 1550 8400 1500
 Wire Wire Line
 	8400 1500 8450 1500
-Wire Wire Line
-	8800 1200 8800 1500
 Wire Wire Line
 	8800 1500 8750 1500
 Wire Wire Line
 	6950 1500 7000 1500
 Wire Wire Line
-	7000 1500 7000 1200
-Connection ~ 7000 1200
-Wire Wire Line
-	7000 1200 7450 1200
-Wire Wire Line
 	7400 1500 7450 1500
-Wire Wire Line
-	7450 1500 7450 1200
-Connection ~ 7450 1200
-Wire Wire Line
-	7450 1200 7900 1200
 Wire Wire Line
 	7850 1500 7900 1500
 Wire Wire Line
-	7900 1500 7900 1200
-Connection ~ 7900 1200
-Wire Wire Line
-	7900 1200 8350 1200
-Wire Wire Line
 	6500 1500 6550 1500
 Wire Wire Line
-	6550 1500 6550 1200
-Wire Wire Line
-	6550 1200 7000 1200
-Wire Wire Line
 	8300 1500 8350 1500
-Wire Wire Line
-	8350 1500 8350 1200
-Connection ~ 8350 1200
-Wire Wire Line
-	8350 1200 8800 1200
 $Comp
 L 4xxx:4051 IC6
 U 1 1 5C234B63
@@ -1344,19 +1253,6 @@ Wire Wire Line
 	1500 6450 1400 6450
 Wire Wire Line
 	1500 6350 1400 6350
-$Comp
-L power:Earth #PWR0114
-U 1 1 5C083E00
-P 6150 1550
-F 0 "#PWR0114" H 6150 1300 50  0001 C CNN
-F 1 "Earth" H 6150 1400 50  0001 C CNN
-F 2 "" H 6150 1550 50  0001 C CNN
-F 3 "~" H 6150 1550 50  0001 C CNN
-	1    6150 1550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6150 1550 6150 1500
 Wire Wire Line
 	6150 1500 6200 1500
 Text GLabel 8800 1100 1    50   Input ~ 0
@@ -1365,7 +1261,6 @@ Text GLabel 8250 3700 1    50   Input ~ 0
 +3V3_A
 Wire Wire Line
 	8800 1200 8800 1100
-Connection ~ 8800 1200
 Wire Wire Line
 	8250 3800 8250 3700
 Connection ~ 8250 3800
@@ -1478,4 +1373,111 @@ F 3 "~" H 10150 5950 50  0001 C CNN
 	1    10150 5950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6150 1200 6150 1500
+Wire Wire Line
+	6150 1200 6600 1200
+Wire Wire Line
+	6600 1500 6600 1200
+Connection ~ 6600 1200
+Wire Wire Line
+	6600 1200 7050 1200
+Wire Wire Line
+	7050 1500 7050 1200
+Connection ~ 7050 1200
+Wire Wire Line
+	7050 1200 7500 1200
+Wire Wire Line
+	7500 1500 7500 1200
+Connection ~ 7500 1200
+Wire Wire Line
+	7500 1200 7950 1200
+Wire Wire Line
+	7950 1500 7950 1200
+Connection ~ 7950 1200
+Wire Wire Line
+	7950 1200 8400 1200
+Wire Wire Line
+	8400 1500 8400 1200
+Connection ~ 8400 1200
+Wire Wire Line
+	8400 1200 8800 1200
+$Comp
+L power:Earth #PWR0115
+U 1 1 5D8C88F8
+P 6550 1550
+F 0 "#PWR0115" H 6550 1300 50  0001 C CNN
+F 1 "Earth" H 6550 1400 50  0001 C CNN
+F 2 "" H 6550 1550 50  0001 C CNN
+F 3 "~" H 6550 1550 50  0001 C CNN
+	1    6550 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 1550 6550 1500
+$Comp
+L power:Earth #PWR0116
+U 1 1 5D8E086D
+P 7000 1550
+F 0 "#PWR0116" H 7000 1300 50  0001 C CNN
+F 1 "Earth" H 7000 1400 50  0001 C CNN
+F 2 "" H 7000 1550 50  0001 C CNN
+F 3 "~" H 7000 1550 50  0001 C CNN
+	1    7000 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 1550 7000 1500
+$Comp
+L power:Earth #PWR0117
+U 1 1 5D8F8992
+P 7450 1550
+F 0 "#PWR0117" H 7450 1300 50  0001 C CNN
+F 1 "Earth" H 7450 1400 50  0001 C CNN
+F 2 "" H 7450 1550 50  0001 C CNN
+F 3 "~" H 7450 1550 50  0001 C CNN
+	1    7450 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1550 7450 1500
+$Comp
+L power:Earth #PWR0118
+U 1 1 5D910C5B
+P 7900 1550
+F 0 "#PWR0118" H 7900 1300 50  0001 C CNN
+F 1 "Earth" H 7900 1400 50  0001 C CNN
+F 2 "" H 7900 1550 50  0001 C CNN
+F 3 "~" H 7900 1550 50  0001 C CNN
+	1    7900 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1550 7900 1500
+$Comp
+L power:Earth #PWR0119
+U 1 1 5D9290B9
+P 8350 1550
+F 0 "#PWR0119" H 8350 1300 50  0001 C CNN
+F 1 "Earth" H 8350 1400 50  0001 C CNN
+F 2 "" H 8350 1550 50  0001 C CNN
+F 3 "~" H 8350 1550 50  0001 C CNN
+	1    8350 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1550 8350 1500
+$Comp
+L power:Earth #PWR0221
+U 1 1 5D94169D
+P 8800 1550
+F 0 "#PWR0221" H 8800 1300 50  0001 C CNN
+F 1 "Earth" H 8800 1400 50  0001 C CNN
+F 2 "" H 8800 1550 50  0001 C CNN
+F 3 "~" H 8800 1550 50  0001 C CNN
+	1    8800 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1550 8800 1500
 $EndSCHEMATC
